@@ -5,16 +5,22 @@ Version: 0.5.0
 Date: 2017-10-13
 Author: John Muschelli
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Plotting functions and themes for 'ggplot2' are included for 
-    'nifti' objects, which work well with the 'neurobase' package.
+Description: Plotting functions and themes for 'ggplot2' are included
+        for 'nifti' objects, which work well with the 'neurobase'
+        package.
 License: GPL-2
-Imports:
-    neurobase (>= 1.16),
-    ggplot2 (>= 2.2.1.9000),
-    grDevices,
-    oro.nifti
-Remotes: muschellij2/neurobase, muschellij2/oro.nifti, tidyverse/ggplot2, r-lib/rlang
+Imports: neurobase (>= 1.16), ggplot2 (>= 2.2.1.9000), grDevices,
+        oro.nifti
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
-
+Repository: Neuroconductor
+Suggests: 
+    covr,
+    testthat
+Remotes:  
+    tidyverse/ggplot2,
+    r-lib/rlang,
+    neuroconductor/oro.nifti@bd06b05d2a090c743e51d745a826e8b77af278f0,
+    neuroconductor/neurobase@1d4b172915192d419b4defb2e56d84d7541c03cd
+biocViews: 
